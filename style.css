@@ -75,7 +75,7 @@ article p {
 }
 
 footer{
-    height: 150px;
+    height: 200px;
     background-color: blueviolet;
     
     color: white;
@@ -87,6 +87,7 @@ footer{
 }
 footer p{
     padding-bottom: 10px ;
+    text-align:center;
 }
 img.FR {
   max-width: 10%;
