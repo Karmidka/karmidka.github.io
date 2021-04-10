@@ -24,35 +24,39 @@
                <a class="menu" href="index.html">O mnie</a><a class="menu " href="oferta.html">Oferta</a><a class="menu" href="projekt.html">Projekt</a><a class="menu active" href="kontakt.html">Kontakt</a>
             
            </nav>
-           <section>
-               
-               <article_k>
+<!---->
            
-             
-                   
-               
-                   <form method="post">
-                        
+           
+    
+
+<form method="post">
+  <input type="hidden" name="recaptcha_response" class="recaptchaResponse">
   <label for="name">Imię i nazwisko</label>
   <input type="text" name="name" id="name" placeholder="Jan Kowalski" required>
-                      
+
   <label for="email">Email</label>
   <input type="email" name="email" id="email" placeholder="example@example.com" required>
-                    
-    
+
   <label for="message">Wiadomość</label>
   <textarea name="message" id="message" placeholder="Wpisz swoją wiadomość" required></textarea>
-   <label for="captcha">Przepisz kod captcha</label>
-<img src="captcha.php" alt="Captcha">
-<input type="text" name="captcha" id="captcha" required>                    
+
   <input type="submit" name="submit" value="Wyślij">
-                       
 </form>
+<script src="https://www.google.com/recaptcha/api.js?render=<SITE_KEY>"></script>
+<script>
+grecaptcha.ready(function () {
+  grecaptcha.execute('<SITE_KEY>', { action: 'contact' }).then(function (token) {
+    var elms = document.getElementsByClassName('recaptchaResponse')
+    for (var i = 0; i < elms.length; i++) {
+      elms[i].setAttribute("value", token);
+    }
+  });
+});
+</script>
+   
            
-               
+<!--           -->
            
-           </article_k>
-               </section>
            <footer>
            <!-- czcionka ikony-->
 <a href="https://www.facebook.com/karolina.midura" class="fa fa-facebook fa-2x"></a>
