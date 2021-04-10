@@ -103,7 +103,7 @@ img.FR:hover{
 form{    
   width:320px;    
   margin:20px auto;    
-  border:2px solid #ccc; 
+  border:3px solid #F3E8FF; 
   padding:20px;
 }
 form label {    
@@ -169,12 +169,12 @@ form input[type=submit] {
 .facebook {
   
   color: #4267B2;
-background: white;
+background: #F3E8FF;
     
 }
 
 .instagram {
   
   color: #8a3ab9;
-    background: white;
+    background: #F3E8FF;
 }
