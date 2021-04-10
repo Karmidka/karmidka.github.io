@@ -71,7 +71,8 @@ article p {
     text-align: justify;
     line-height: 20px;
     font-size: 18px;
-    padding: 50px 0;
+    padding: 10px 0;
+    padding-bottom:50px;
 }
 
 footer{
