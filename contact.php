@@ -9,7 +9,7 @@ if(!empty($_POST['name']) and !empty($_POST['email']) and !empty($_POST['message
   $verify = curl_init(); curl_setopt($verify, CURLOPT_URL, "https://www.google.com/recaptcha/api/siteverify");
   curl_setopt($verify, CURLOPT_POST, true); 
   curl_setopt($verify, CURLOPT_POSTFIELDS, http_build_query([
-    'secret' => '<SECRET_KEY> ',
+    'secret' => '<6Le7mKQaAAAAADL3KpRZ3yQsd114C3h_wRx_zmAh> ',
     'response' => $_POST['recaptcha_response'] 
   ])); 
   curl_setopt($verify, CURLOPT_SSL_VERIFYPEER, false); 
