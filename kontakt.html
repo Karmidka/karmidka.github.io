@@ -3,10 +3,9 @@
     <head>
 <!-- polskie znaki -->
         <meta charset="UTF-8">
-        <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <title>Karolina Midura Aerialist </title>
-        <script src='https://www.google.com/recaptcha/api.js' async defer></script>
+        
         <!-- czcionka -->
        <link href="https://fonts.googleapis.com/css2?family=Lexend&display=swap" rel="stylesheet">
         <link rel="stylesheet" href="style.css">
@@ -31,31 +30,7 @@
            
     
 
-<form method="post">
-  <input type="hidden" name="recaptcha_response" class="recaptchaResponse">
-  <label for="name">Imię i nazwisko</label>
-  <input type="text" name="name" id="name" placeholder="Jan Kowalski" required>
 
-  <label for="email">Email</label>
-  <input type="email" name="email" id="email" placeholder="example@example.com" required>
-
-  <label for="message">Wiadomość</label>
-  <textarea name="message" id="message" placeholder="Wpisz swoją wiadomość" required></textarea>
-
-  <input type="submit" name="submit" value="Wyślij">
-</form>
-<script src="https://www.google.com/recaptcha/api.js?render=<6Le7mKQaAAAAADxGVVtKaMOZzZKQyGYx3C1cW900>"></script>
-<script>
-grecaptcha.ready(function () {
-  grecaptcha.execute('<6Le7mKQaAAAAADxGVVtKaMOZzZKQyGYx3C1cW900>', { action: 'contact' }).then(function (token) {
-    var elms = document.getElementsByClassName('recaptchaResponse')
-    for (var i = 0; i < elms.length; i++) {
-      elms[i].setAttribute("value", token);
-    }
-  });
-});
-</script>
-   
            
 <!--           -->
            
