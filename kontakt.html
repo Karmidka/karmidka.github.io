@@ -46,7 +46,7 @@
 <script src="https://www.google.com/recaptcha/api.js?render=<SITE_KEY>"></script>
 <script>
 grecaptcha.ready(function () {
-  grecaptcha.execute('<SITE_KEY>', { action: 'contact' }).then(function (token) {
+  grecaptcha.execute('<6Le7mKQaAAAAADxGVVtKaMOZzZKQyGYx3C1cW900>', { action: 'contact' }).then(function (token) {
     var elms = document.getElementsByClassName('recaptchaResponse')
     for (var i = 0; i < elms.length; i++) {
       elms[i].setAttribute("value", token);
