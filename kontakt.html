@@ -39,6 +39,7 @@
       
                </article>
            <form method="post">
+  <input type="hidden" name="recaptcha_response" class="recaptchaResponse">
   <label for="name">Imię i nazwisko</label>
   <input type="text" name="name" id="name" placeholder="Jan Kowalski" required>
 
@@ -50,6 +51,17 @@
 
   <input type="submit" name="submit" value="Wyślij">
 </form>
+<script src="https://www.google.com/recaptcha/api.js?render=<6Le7mKQaAAAAADxGVVtKaMOZzZKQyGYx3C1cW900>"></script>
+<script>
+grecaptcha.ready(function () {
+  grecaptcha.execute('<6Le7mKQaAAAAADxGVVtKaMOZzZKQyGYx3C1cW900>', { action: 'contact' }).then(function (token) {
+    var elms = document.getElementsByClassName('recaptchaResponse')
+    for (var i = 0; i < elms.length; i++) {
+      elms[i].setAttribute("value", token);
+    }
+  });
+});
+</script>
 
            </section>
            <footer>
