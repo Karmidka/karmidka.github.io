@@ -231,11 +231,7 @@ nav a {
   
   font-size: 15px;
 }
- img.oferta {
- margin: 10px 15px 5px 10px;
-    width: 95%;
-    
-} 
+ 
 }
 /**/
 form{
@@ -420,3 +416,24 @@ article b {
 }
 
 
+@media only screen and (max-width: 600px) {
+    
+film iframe{
+    display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 80%;
+}
+
+
+
+img.oferta {
+   display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 100%;
+}
+article b {
+    
+    font-size: 15px;
+    }}
