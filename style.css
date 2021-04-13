@@ -121,7 +121,7 @@ img.FR:hover{
 @media only screen and (max-width: 600px) {
      
     form{
-  width:100%;
+  width:90%;
   margin:auto ;
   border:2px solid #ccc;
   padding:0;
@@ -136,7 +136,7 @@ img.FR:hover{
   article {
     margin-top:30px;
     margin-bottom:30px;
-    padding: 5px ;
+    padding: 15px ;
 }
   
 }
