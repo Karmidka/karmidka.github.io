@@ -185,18 +185,9 @@ opacity: 85%
     opacity: 85%
 }
 
+#more {display: none;}
 
 
-button {
-  background-color: blueviolet; 
-  border: none;
-  color: black;
-  padding: 12px 25px;
-  text-align: center;
-  text-decoration: none;
-  display: inline-block;
-  font-size: 14px;
-}
 
 button:hover{
     opacity:0.8;
