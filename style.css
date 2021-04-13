@@ -332,7 +332,7 @@ bibliography.a:hover {
 }
 
 /* selected link */
-bibliography.a:active {
+bibliography a:active {
   color: blueviolet;
     text-decoration:none;
     font-weight: bold;
