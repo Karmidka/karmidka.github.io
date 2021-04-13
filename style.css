@@ -102,6 +102,8 @@ footer{
   text-align: center;
   text-decoration: none;
     padding: 10px 0;
+    position:fixed;
+    bottom:0;
     
 }
 footer p{
@@ -153,7 +155,8 @@ img.left {
     margin-top:40px;
     width:100%;
     height: 100px;
-    
+    position:fixed;
+    bottom:0;
 }
  
     article p {
