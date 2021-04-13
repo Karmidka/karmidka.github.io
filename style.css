@@ -407,6 +407,7 @@ oferta a:active {
     text-decoration:none;
     font-weight: bold;
 }
+
 /*
 iframe{
     display: block;
@@ -414,6 +415,7 @@ iframe{
   margin-right: auto;
   width: 50%;
 }
+*/
 
 
 img.oferta1 {
@@ -425,4 +427,4 @@ img.oferta1 {
 article b {
     
     font-size: 25px;
-}*/
+}
