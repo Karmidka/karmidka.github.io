@@ -140,10 +140,7 @@ form input[type=submit] {
   font-size: 36px;
   text-align: center;
   text-decoration: none;
-    padding: 8px;
-    
-    
-  
+    padding: 8px; 
     
 }
 
@@ -184,4 +181,14 @@ background: white;
   
   color: #8a3ab9;
     background: white;
+}
+
+.contener{
+  margin: 0 auto 50px;
+  width: 100%;
+  max-width: 500px;
+  padding: 10px;
+  border-bottom: 5px solid #1E5799;
+  background: #fff;
+  box-shadow: 6px 5px 19px 2px #3d3d3d;
 }
