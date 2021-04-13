@@ -177,7 +177,13 @@ nav a {
     white-space: nowrap; 
     
 }
+  .icon-bar a {
+  display: block;
+  text-align: center;
+  padding: 8px;
   
+  font-size: 25px;
+}
 }
 /**/
 form{
@@ -209,19 +215,6 @@ form input[type=submit] {
 /**/
 
 
-
-.fa {
-
-  font-size: 36px;
-  text-align: center;
-  text-decoration: none;
-    padding: 8px; 
-    
-}
-
-.fa:hover {
-  opacity: 0.5;
-}
 
 
 /* Fixed/sticky icon bar (vertically aligned 50% from the top of the screen) */
