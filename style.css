@@ -397,10 +397,10 @@ iframe{
 
 
 img.oferta1 {
-    
-    text-align:center;
-    width: 70%;
-    
+   display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 40%;
 }
 of {
     
