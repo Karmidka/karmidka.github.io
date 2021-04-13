@@ -44,7 +44,7 @@ nav a:hover {
 article {
     margin-top:50px;
     margin-bottom:50px;
-    padding: 0 20px;
+    padding: 0 30px;
 }
 
 bibliography p{
@@ -429,4 +429,11 @@ article b {
     
     font-size: 18px;
 }
+    
+}
+form-row{
+    display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
 }
