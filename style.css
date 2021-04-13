@@ -120,20 +120,21 @@ img.FR:hover{
 
 @media only screen and (max-width: 600px) {
     
-    article {
+  
+     
+    form{
+  width:100%;
+  border:2px solid black;
+  padding:0;
+        margin:0;
+   
+}
+    
+      article {
     margin-top:30px;
     margin-bottom:30px;
     padding: 15px ;
     }
-     
-    form{
-  width:70%;
-  
-  border:2px solid black;
-  padding:0;
-        margin:0;
-    text-align: center;
-}
  img.projekt {
     
     margin: 10px 50px 5px 10px;
