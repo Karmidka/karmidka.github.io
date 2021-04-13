@@ -147,6 +147,7 @@ img.FR:hover{
    
 }
 form{
+position:absolute;
   width:70%;
   border:2px solid black;
   margin:0;
