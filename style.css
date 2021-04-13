@@ -186,7 +186,9 @@ opacity: 85%
 }
 
 #more {display: none;}
-
+button:focus {
+  outline: none;
+}
 button:focus {
     background-color:blueviolet;
     color:black;
