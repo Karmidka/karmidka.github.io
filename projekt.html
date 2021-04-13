@@ -33,7 +33,7 @@
                 Moim celem projektu było stworzenie strony-wizytówkim która prezentowałaby moją dziłalność. Wymagania, które uważam, że udało mi się spełnić:
                </p>
               <p>
-               • użycie HTML, CSS i jednej dodatkowej technologii - SSL (jest ona wbudowana dla stron netlify, aktywność certyfikatu sprawdzono walidatorem - poniżej), a także PHP (captcha)
+               • użycie HTML, CSS, JavaScript i jednej dodatkowej technologii - SSL (jest ona wbudowana dla stron netlify, aktywność certyfikatu sprawdzono walidatorem - poniżej), a także PHP (captcha)
                </p>
                     <p><img class="projekt" src="Zrzut ekranu 2021-04-13 143039.jpg" alt="potwierdzenie bezpieczeństwa strony" />
                 <p>
@@ -58,9 +58,9 @@
                 <p>
                 • Wykorzystano programy: Brackets, Affinity Photo, GitHub, Google Analytics
                    </p>
-                <p>
-                •  Bibliografia (data dostępu: kwiecień 2021):
-                   </p>
+                   
+          <p> 
+              •  Bibliografia (data dostępu: kwiecień 2021):<span id="dots">...</span><span id="more">bbl</span></p>
                    
           <div class="icon-bar">
   <a href="https://www.facebook.com/karolina.midura" class="facebook"><i class="fa fa-facebook"></i></a>
@@ -79,6 +79,25 @@
                
                </footer>
        </div>
+       
+       
+<script>      
+function myFunction() {
+  var dots = document.getElementById("dots");
+  var moreText = document.getElementById("more");
+  var btnText = document.getElementById("myBtn");
+
+  if (dots.style.display === "none") {
+    dots.style.display = "inline";
+    btnText.innerHTML = "Read more";
+    moreText.style.display = "none";
+  } else {
+    dots.style.display = "none";
+    btnText.innerHTML = "Read less";
+    moreText.style.display = "inline";
+  }
+}
+       </script>
 <!-- Global site tag (gtag.js) - Google Analytics -->
 <script async src="https://www.googletagmanager.com/gtag/js?id=UA-194310292-1"></script>
 <script>
