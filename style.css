@@ -184,6 +184,13 @@ nav a {
   
   font-size: 15px;
 }
+    form{
+  width:75%;
+  margin:auto ;
+  border:2px solid black;
+  padding:20px;
+    
+}
 }
 /**/
 form{
