@@ -197,3 +197,7 @@ button {
   display: inline-block;
   font-size: 14px;
 }
+
+button:hover{
+    opacity:0.8;
+}
