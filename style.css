@@ -191,14 +191,14 @@ button:focus {
     background-color:blueviolet;
     color:black;
     border: 2px solid #000;
-     padding: 15px 22px;
+     padding: 10px 17px;
 border-radius: 10px;
 }
 
 button {
     background-color:blueviolet;
     color:black;
-    padding: 15px 22px;
+    padding: 10px 17px;
     border: 2px solid #000;
 border-radius: 10px;
 }
