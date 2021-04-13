@@ -35,16 +35,16 @@
  <form name="simpleContactForm" method="POST" action="/thanks" data-netlify="true" id="simple-contact-form" class="contact-form" data-netlify-recaptcha="true">
     <p class="form-row">
         <label id="contact-form-name-label" for="contact-form-name" class="form-label">Imię i nazwisko/Nazwa firmy</label>
-        <input type="text" name="name" id="contact-form-name" aria-labelledby="contact-form-name-label" class="form-input" />
+        <input type="text" name="name" required id="contact-form-name" aria-labelledby="contact-form-name-label" class="form-input" />
     </p>
     <p class="form-row">
         <label id="contact-form-email-label" for="contact-form-email" class="form-label">Adres e-mail </label>
-        <input type="email" name="email" id="contact-form-email" aria-labelledby="contact-form-email-label" class="form-input" />
+        <input type="email" name="email"required id="contact-form-email" aria-labelledby="contact-form-email-label" class="form-input" />
     </p>
     <p class="form-row">
         <label id="contact-form-message-label" for="contact-form-message" class="form-label">Wiadomość</label>
         <textarea
-            name="message"
+            name="message"required
             id="contact-form-message"
             aria-labelledby="contact-form-message-label"
             class="form-textarea"
