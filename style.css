@@ -313,22 +313,25 @@ moreText:hover{
 a:link {
   color: black;
     text-decoration:none;
+    font-weight: bold;
 }
 
 /* visited link */
 a:visited {
   color: blueviolet;
     text-decoration:none;
+    font-weight: bold;
 }
 
 /* mouse over link */
 a:hover {
   opacity:0.7;
-    text-decoration:none;
+    
 }
 
 /* selected link */
 a:active {
   color: blueviolet;
     text-decoration:none;
+    font-weight: bold;
 }
