@@ -26,6 +26,7 @@ nav a {
     text-decoration:none;
     text-align:center;
     font-size: 20px;
+    white-space: nowrap; 
     
 }
 /*po najechaniu myszka*/
