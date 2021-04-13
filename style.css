@@ -174,7 +174,7 @@ form input[type=submit] {
   
   color: #4267B2;
 background: white;
-opacity: 80%
+opacity: 85%
     
 }
 
@@ -182,6 +182,7 @@ opacity: 80%
   
   color: #8a3ab9;
     background: white;
+    opacity: 85%
 }
 
 #more {display: none;}
