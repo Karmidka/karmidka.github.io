@@ -127,9 +127,9 @@ img.FR:hover{
     }
      
     form{
-  width:85%;
-  margin:auto ;
-  border:2px solid #ccc;
+  width:70%;
+  
+  border:2px solid black;
   padding:0;
     text-align: center;
 }
@@ -171,7 +171,7 @@ form label {
 }
 form textarea,form input {
   padding:5px;
-  border:1px solid #ccc;
+  border:1px solid black;
   margin-bottom:25px;
   width:100%;
   box-sizing: border-box;
