@@ -309,3 +309,22 @@ moreText:hover{
     opacity:0.8;
     cursor:pointer;
 }
+
+a:link {
+  color: black;
+}
+
+/* visited link */
+a:visited {
+  color: blueviolet;
+}
+
+/* mouse over link */
+a:hover {
+  opacity:0.7;;
+}
+
+/* selected link */
+a:active {
+  color: blueviolet;
+}
