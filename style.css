@@ -146,10 +146,9 @@ img.FR:hover{
     padding: 5px 0;
    
 }
-article.form{
+form{
   width:70%;
   border:2px solid black;
-  padding:unset;
   margin:0;
    
 }
