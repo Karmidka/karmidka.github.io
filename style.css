@@ -137,6 +137,22 @@ img.FR:hover{
 @media only screen and (max-width: 600px) {
     
     
+iframe{
+    
+  width: 100%;
+}
+
+
+img.oferta1 {
+  
+  width: 100%;
+    margin:0
+}
+article b {
+    
+    font-size: 18px;
+}
+    
     bibliography p{
     
    margin:0;
@@ -236,7 +252,7 @@ form{
   width:400px;
   margin:auto ;
   border:2px solid black;
-  padding:10px;
+  padding:20px;
     
 }
 form label {
@@ -408,25 +424,4 @@ img.oferta1 {
 article b {
     
     font-size: 25px;
-}
-
-
-@media only screen and (max-width: 600px) {
-    
-    
-iframe{
-    
-  width: 100%;
-}
-
-
-img.oferta1 {
-  
-  width: 100%;
-    margin:0
-}
-article b {
-    
-    font-size: 18px;
-}    
 }
