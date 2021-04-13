@@ -264,12 +264,18 @@ background: white;
 opacity: 85%
     
 }
+facebook:hover{
+    opacity: 60%;
+}
 
 .instagram {
   
   color: #8a3ab9;
     background: white;
     opacity: 85%
+}
+instagram:hover{
+    opacity: 60%;
 }
 
 #more {display: none;}
