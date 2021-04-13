@@ -139,10 +139,10 @@ img.FR:hover{
 }
 img.left {
     float:left;
-    margin: 10px 20px 5px 10px;
-    width: 40%;
+    margin: 10px 15px 5px 10px;
+    width: 45%;
     border-radius:65%;
-    border: 4px solid blueviolet;
+    
 }
     article h2{
     font-size:25px;
