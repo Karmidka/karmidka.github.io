@@ -391,8 +391,10 @@ oferta a:active {
     font-weight: bold;
 }
 iframe{
-    width: 60%
-        
+    display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 40%;
 }
 
 
