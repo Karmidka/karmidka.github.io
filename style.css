@@ -51,7 +51,7 @@ bibliography p{
     
    margin:0;
     margin-left:85px;
-    margin-bottom: 55px;
+    padding-bottom: 55px;
     font-size: 15px;  
    
     
@@ -125,7 +125,7 @@ img.FR:hover{
     
    margin:0;
     margin-left:25px;
-    margin-bottom: 25px;
+    padding-bottom: 25px;
     font-size: 15px; 
     }
   article h1{
