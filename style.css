@@ -136,10 +136,7 @@ img.FR:hover{
 
 @media only screen and (max-width: 600px) {
     
-    img.oferta1 {
- 
-  width: 100%;
-}
+    
 
     
     bibliography p{
@@ -234,7 +231,10 @@ nav a {
   
   font-size: 15px;
 }
-  
+ img.oferta1 {
+ 
+  width: 100%;
+} 
 }
 /**/
 form{
