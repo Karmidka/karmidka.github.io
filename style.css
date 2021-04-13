@@ -188,13 +188,19 @@ opacity: 85%
 #more {display: none;}
 
 button:focus {
+    background-color:blueviolet;
+    color:black;
     border: 2px solid #000;
-border-radius: 5px;
+     padding: 15px 22px;
+border-radius: 10px;
 }
 
 button {
+    background-color:blueviolet;
+    color:black;
+    padding: 15px 22px;
     border: 2px solid #000;
-border-radius: 5px;
+border-radius: 10px;
 }
 button:hover{
     opacity:0.8;
