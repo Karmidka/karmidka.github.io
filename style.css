@@ -137,21 +137,7 @@ img.FR:hover{
 @media only screen and (max-width: 600px) {
     
     
-iframe{
-    
-  width: 100%;
-}
 
-
-img.oferta1 {
-  
-  width: 100%;
-    margin:0
-}
-article b {
-    
-    font-size: 18px;
-}
     
     bibliography p{
     
@@ -424,4 +410,25 @@ img.oferta1 {
 article b {
     
     font-size: 25px;
+}
+
+
+@media only screen and (max-width: 600px) {
+    
+    
+iframe{
+    
+  width: 100%;
+}
+
+
+img.oferta1 {
+  
+  width: 100%;
+    margin:0
+}
+article b {
+    
+    font-size: 18px;
+}
 }
