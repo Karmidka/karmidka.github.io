@@ -119,8 +119,14 @@ img.FR:hover{
 
 
 @media only screen and (max-width: 600px) {
+    
+    article {
+    margin-top:30px;
+    margin-bottom:30px;
+    padding: 15px ;
+    }
      
-    form{
+    article.form{
   width:90%;
   margin:auto ;
   border:2px solid #ccc;
@@ -133,11 +139,8 @@ img.FR:hover{
     width: 80%;
     border: 4px solid blueviolet;
 }   
-  article {
-    margin-top:30px;
-    margin-bottom:30px;
-    padding: 15px ;
-}
+  
+
   
 }
 /**/
