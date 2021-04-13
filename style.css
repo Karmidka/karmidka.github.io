@@ -363,3 +363,30 @@ bibliography a:active {
     text-decoration:none;
     font-weight: bold;
 }
+
+
+oferta a:link {
+  color: black;
+    text-decoration:none;
+    font-weight: bold;
+}
+
+/* visited link */
+oferta a:visited {
+  color: blueviolet;
+    text-decoration:none;
+    font-weight: bold;
+}
+
+/* mouse over link */
+oferta a:hover {
+  opacity:0.7;
+    
+}
+
+/* selected link */
+oferta a:active {
+  color: blueviolet;
+    text-decoration:none;
+    font-weight: bold;
+}
