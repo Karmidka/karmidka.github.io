@@ -264,9 +264,7 @@ background: white;
 opacity: 85%
     
 }
-facebook:hover{
-    opacity: 60%;
-}
+
 
 .instagram {
   
@@ -274,8 +272,8 @@ facebook:hover{
     background: white;
     opacity: 85%
 }
-instagram:hover{
-    opacity: 60%;
+.fa:hover {
+  opacity: 0.7;
 }
 
 #more {display: none;}
