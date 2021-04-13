@@ -183,12 +183,4 @@ background: white;
     background: white;
 }
 
-.contener{
-  margin: 0 auto 50px;
-  width: 100%;
-  max-width: 500px;
-  padding: 10px;
-  border-bottom: 5px solid #1E5799;
-  background: #fff;
-  box-shadow: 6px 5px 19px 2px #3d3d3d;
-}
+#more {display: none;}
