@@ -77,16 +77,16 @@ img.left {
     border-radius:65%;
     border: 4px solid transparent;
 }
-img.projekt {
+img.projekt1 {
     
     margin: 10px 50px 5px 10px;
-    width: 45%;
+    width: 30%;
     border: 4px solid blueviolet;
 }
     img.projekt {
     
     margin: 10px 50px 5px 10px;
-    width: 30%;
+    width: 45%;
     border: 4px solid blueviolet;
 }
 article p {
