@@ -145,19 +145,33 @@ section22{
     text-decoration:none;
     
 }
-nv2 a:hover {
-    color:blueviolet;
-    cursor:pointer;
+
+section22 a:link {
+  color: black;
     text-decoration:none;
+    font-weight: bold;
 }
 
-
-
-.active {
-    color:blueviolet;
-    opacity:0.85;
+/* visited link */
+section22 a:visited {
+  color: blueviolet;
     text-decoration:none;
+    font-weight: bold;
 }
+
+/* mouse over link */
+section22 a:hover {
+  opacity:0.7;
+    
+}
+
+/* selected link */
+section22 a:active {
+  color: blueviolet;
+    text-decoration:none;
+    font-weight: bold;
+}
+
 
 @media only screen and (max-width: 600px) {
     
