@@ -477,7 +477,7 @@ article b {
 }
 
 .gallery > div > img {
-  width: 33%;
+  width: 23%;
   transition: .1s transform;
   transform: translateZ(0); /* hack */
 }
