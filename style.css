@@ -472,7 +472,7 @@ article b {
 
 .gallery > div {
   position:relative;
-  float:left;
+/*  float:left;*/
   padding: 5px;
 }
 
