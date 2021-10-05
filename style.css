@@ -463,7 +463,7 @@ article b {
 
 
 .gallery {
-  width: 75%;
+  width: 85%;
   margin: 0 auto;
   padding: 5px;
   background: #fff;
@@ -471,8 +471,8 @@ article b {
 }
 
 .gallery > div {
-  position: relative;
-  float: left;
+  position:relative;
+  float:none;
   padding: 5px;
 }
 
