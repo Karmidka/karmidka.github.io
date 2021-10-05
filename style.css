@@ -481,7 +481,7 @@ text-align: center;
     margin: 10px 50px;
   width: 45%;
   transition: .1s transform;
-  transform: translateZ(0); /* hack */
+  transform: translateZ(0); 
 }
 
 .gallery > div:hover {
