@@ -478,8 +478,8 @@ article b {
 
 .gallery > div > img {
 text-align: center;
-    margin: 10px 15px;
-  width: 90%;
+    margin: 10px;
+  width: 98%;
   transition: .1s transform;
   transform: translateZ(0); 
 }
