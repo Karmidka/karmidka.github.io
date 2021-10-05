@@ -463,7 +463,7 @@ article b {
 
 
 .gallery {
-  width: 90%;
+  width: 75%;
   margin: 0 auto;
   padding: 5px;
   background: #fff;
@@ -479,7 +479,7 @@ article b {
 .gallery > div > img {
 text-align: center;
     margin: 10px 50px;
-  width: 45%;
+  width: 55%;
   transition: .1s transform;
   transform: translateZ(0); 
 }
