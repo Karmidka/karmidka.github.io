@@ -147,7 +147,7 @@ section22{
 nv2 a:hover {
     color:blueviolet;
     cursor:pointer;
-      text-decoration:none;
+    text-decoration:none;
 }
 
 
@@ -155,6 +155,7 @@ nv2 a:hover {
 .active {
     color:blueviolet;
     opacity:0.85;
+    text-decoration:none;
 }
 
 @media only screen and (max-width: 600px) {
