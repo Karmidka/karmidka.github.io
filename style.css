@@ -463,7 +463,7 @@ article b {
 
 
 .gallery {
-  width: 640px;
+  width: 80%;
   margin: 0 auto;
   padding: 5px;
   background: #fff;
@@ -477,7 +477,7 @@ article b {
 }
 
 .gallery > div > img {
-  width: 200px;
+  width: 33%;
   transition: .1s transform;
   transform: translateZ(0); /* hack */
 }
