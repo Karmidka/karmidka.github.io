@@ -462,13 +462,13 @@ article b {
 
 
 
-.gallery {
+/*.gallery {
   width: 90%;
   margin: 0 auto;
   padding: 5px;
   background: #fff;
   box-shadow: 0 1px 1px rgba(0,0,0,.1);
-}
+}*/
 
 .gallery > div {
   position:relative;
