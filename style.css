@@ -479,7 +479,7 @@ article b {
 .gallery > div > img {
 text-align: center;
     margin: 10px 15px;
-  width: 33%;
+  width: 90%;
   transition: .1s transform;
   transform: translateZ(0); 
 }
