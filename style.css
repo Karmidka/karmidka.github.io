@@ -144,6 +144,16 @@ section22{
     font-size: 20px;
     
 }
+nv2 a:hover {
+    background-color:blueviolet;
+    cursor:pointer;
+}
+
+
+
+.active {
+    background-color:blueviolet;
+}
 
 @media only screen and (max-width: 600px) {
     
