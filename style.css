@@ -478,7 +478,7 @@ article b {
 
 .gallery > div > img {
 text-align: center;
-    margin: 10px;
+    margin: 8%;
   width: 98%;
   transition: .1s transform;
   transform: translateZ(0); 
