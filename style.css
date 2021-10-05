@@ -478,6 +478,7 @@ article b {
 
 .gallery > div > img {
 text-align: center;
+    margin: 10px 50px;
   width: 85%;
   transition: .1s transform;
   transform: translateZ(0); /* hack */
