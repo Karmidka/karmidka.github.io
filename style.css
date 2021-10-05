@@ -147,6 +147,7 @@ section22{
 nv2 a:hover {
     color:blueviolet;
     cursor:pointer;
+      text-decoration:none;
 }
 
 
