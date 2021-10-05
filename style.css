@@ -40,6 +40,9 @@ nav a:hover {
 .active {
     background-color:blueviolet;
 }
+section22{
+    text-align:center;
+}
 
 article {
     margin-top:50px;
@@ -70,9 +73,7 @@ article h1{
     margin: 0 10% 30px 10%;
     padding-bottom: 15px;
 }
-section22{
-    text-align:center;
-}
+
 img.left {
     float:left;
     margin: 10px 50px 5px 10px;
