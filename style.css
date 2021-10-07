@@ -460,8 +460,6 @@ article b {
 
 @import "compass/css3";
 
-
-
 /* galeria wersja Piotrka */
 
 .gallery {
@@ -474,6 +472,8 @@ position: relative;
 padding: 5px;
 max-width: 33%;
 }
+
+/* galeria - reszta jak bylo z internetu */
 
 .gallery > div > img {
 text-align: center;
@@ -506,6 +506,7 @@ Galeria.p{
     text-align:center;
 }
 
+/* galeria - koniec */
 
 
 
@@ -513,15 +514,7 @@ Galeria.p{
 
 
 
-
-
-
-
-
-
-
-
-
+/*---------------------------------------------------------------------------------------------- */
 
 /* na telefon */
 
