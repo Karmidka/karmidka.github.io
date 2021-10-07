@@ -549,6 +549,9 @@ article b {
     }}
 
 
+
+/* pomniejszenie znaczkow na media spolecznosciowe*/
+
 @media (max-width: 764px) {
 .icon-bar a {
 font-size: 28px;
