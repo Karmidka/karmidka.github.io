@@ -567,3 +567,18 @@ max-width: 400px;
 width: 100%;
 }
 }
+
+
+
+/* wygląd galerii*/
+
+@media (max-width: 1200px) {
+.gallery > div {
+max-width: 50%;
+}
+}
+@media (max-width: 764px) {
+.gallery > div {
+max-width: 100%;
+}
+}
