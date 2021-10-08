@@ -480,7 +480,7 @@ max-width: 33.3%;
 .gallery > div > img {
 text-align: center;
     margin: auto;
-  width: 75%;
+  width: 98%;
   transition: .1s transform;
   transform: translateZ(0); 
 }
@@ -490,7 +490,7 @@ text-align: center;
 }
 
 .gallery > div:hover > img {
-  transform: scale(1.8,1.8);
+  transform: scale(1.4,1.4);
   transition: .3s transform;
 }
 
