@@ -69,6 +69,7 @@ administratora usunięcia moich danych.</label>
 </div>
      
       <div data-netlify-recaptcha="true" class="form-row"></div>
+      <p class="recaptcha-error-info" style="color: red"></p>
     <p class="form-row form-submit" >
         <button type="submit" class="button" >Wyślij</button>
     </p>
@@ -77,7 +78,18 @@ administratora usunięcia moich danych.</label>
                   
 <script type="text/javascript">
 function napiszDoMnie() {
-        parent.location.href = "mailto:karmidka@gmail.com";
+    parent.location.href = "mailto:karmidka@gmail.com";
+}
+
+window.onload = function() { 
+    const recaptcha = document.forms[0]["g-recaptcha-response"];
+    if (recaptcha) {
+        const textPlaceholder = document.querySelector(".recaptcha-error-info");
+        recaptcha.required = true;
+        recaptcha.oninvalid = function() {
+            textPlaceholder.textContent = "Uzupełnij recaptcha!"
+        }
+    }
 }
 </script>
           
