@@ -322,7 +322,7 @@ form input[type=submit] {
   padding: 8px;
   margin: 3px;
   font-size: 40px;
-    border-radius: 15%;
+border-radius: 25%;
 }
 
 /* Style the social media icons with color, if you want */
