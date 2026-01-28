@@ -29,7 +29,7 @@ nav a {
     text-align:center;
     font-size: 22px;
     white-space: nowrap; 
-    
+    background-color: #6363b1
 }
 /*po najechaniu myszka*/
 nav a:hover {
