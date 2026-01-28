@@ -331,7 +331,7 @@ form input[type=submit] {
   
   color: #4267B2;
 background: white;
-opacity: 75%
+opacity: 65%
     
 }
 
@@ -340,7 +340,7 @@ opacity: 75%
   
   color: #8a3ab9;
     background: white;
-    opacity: 75%
+    opacity: 65%
 }
 .fa:hover {
   opacity: 0.7;
