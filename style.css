@@ -564,6 +564,11 @@ article b {
   margin: 0 auto !important;
   transform: scale(1.3);
 }
+
+
+.rodo-consent {
+  cursor: pointer;
+}
 /* pomniejszenie znaczkow na media spolecznosciowe*/
 
 @media (max-width: 764px) {
