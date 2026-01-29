@@ -556,10 +556,17 @@ article b {
 
 .rodo-text {
   max-width: 600px;
-  margin-bottom: 10px;
+  margin-bottom: 12px;
 }
 
-.rodo-wrapper input[type="checkbox"] {
+.rodo-checkbox {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 8px;
+}
+
+.rodo-checkbox input {
   transform: scale(1.2);
 }
 
