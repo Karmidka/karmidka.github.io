@@ -551,29 +551,19 @@ article b {
   margin: 20px 0;
 }
 
-.rodo-text {
-  max-width: 600px;
-  margin: 0 auto 16px;
-}
-
-/* THIS fixes the overlap */
-.rodo-checkbox {
-  display: block;
-  text-align: center;
-}
-
-.rodo-label-text {
-  display: block;
-  margin-bottom: 8px;
+/* Break global label styles */
+.rodo-consent {
+  display: block !important;
+  margin-bottom: 10px;
   font-weight: 600;
 }
 
-.rodo-checkbox input {
-  display: block;
-  margin: 0 auto;
+/* Force checkbox onto its own line */
+#checkbox-rodo {
+  display: block !important;
+  margin: 0 auto !important;
   transform: scale(1.3);
 }
-
 /* pomniejszenie znaczkow na media spolecznosciowe*/
 
 @media (max-width: 764px) {
