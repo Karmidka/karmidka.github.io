@@ -561,6 +561,7 @@ article b {
 /* Force checkbox onto its own line */
 #checkbox-rodo {
   display: block !important;
+    width: 10px;
   margin: 0 auto !important;
   transform: scale(1.3);
 }
