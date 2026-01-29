@@ -98,14 +98,14 @@ img.projekt1 {
     
     margin: 10px 50px 5px 10px;
     width: 45%;
-    border: 4px solid #4747a3;
+    border: 4px solid #ffd2b7;
 }
 
 img.projekt2 {
     
     margin: 10px 50px 5px 10px;
     width: 70%;
-    border: 4px solid #4747a3;
+    border: 4px solid #ffd2b7;
 }
 article p {
     text-align: justify;
@@ -119,7 +119,7 @@ footer{
     margin-top:120px;
     width:100%;
     height: 180px;
-    background-color: #4747a3;
+    background-color: #ffd2b7;
     
     color: white;
   font-size: 15px;
@@ -136,7 +136,7 @@ footer p{
 img.FR {
   max-width: 10%;
   height: auto;
-    background-color: #4747a3;
+    background-color: #ffd2b7;
      margin: 0;
 }
 
@@ -197,7 +197,8 @@ section22 a:active {
     text-align: center;
     margin: 0 10% 15px 10%;
     padding-bottom: 15px;
-    border-bottom: 5px solid #4747a3;
+    border-bottom: 5px solid #ffd2b7; 
+/*      #4747a3*/
 }
 img.left {
     float:left;
