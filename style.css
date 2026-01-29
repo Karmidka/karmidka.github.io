@@ -34,7 +34,7 @@ nav a {
 }
 /*po najechaniu myszka*/
 nav a:hover {
-    background-color:#ffbe98;
+    background-color:#ffd2b7;
     
 /*    #4747a3*/
     cursor:pointer;
@@ -43,7 +43,7 @@ nav a:hover {
 
 
 .active {
-    background-color:#ffc4a2; 
+    background-color:#ffbe98; 
 /*    #4747a3*/
 }
 
