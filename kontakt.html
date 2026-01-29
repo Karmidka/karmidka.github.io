@@ -57,7 +57,7 @@ content="Cyrkowe akrobacje na wysokościach. Szukasz pokazu? A może chcesz spr�
     </p>
      
 <!-- RODO -->
-     
+     <!--
      <div style="display: flex; align-items: flex-start;">
 <input style="max-width: 16px; margin-right: 4px;" required
 type="checkbox" name="checkbox-rodo" id="checkbox-rodo">
@@ -66,6 +66,22 @@ Administratorem danych jest Karolina Midura.
 Podanie danych jest dobrowolne. Podstawą przetwarzania danych jest moja zgoda.
 Mam prawo wycofania zgody w dowolnym momencie. Mam prawo żądania od
 administratora usunięcia moich danych.</label>
+</div>-->
+     <div class="rodo-wrapper">
+  <label for="checkbox-rodo" class="rodo-text">
+    Wyrażam zgodę na przetwarzanie moich danych osobowych w celach kontaktowych.
+    Administratorem danych jest Karolina Midura.
+    Podanie danych jest dobrowolne. Podstawą przetwarzania danych jest moja zgoda.
+    Mam prawo wycofania zgody w dowolnym momencie.
+    Mam prawo żądania od administratora usunięcia moich danych.
+  </label>
+
+  <input
+    type="checkbox"
+    name="checkbox-rodo"
+    id="checkbox-rodo"
+    required
+  />
 </div>
      
       <div data-netlify-recaptcha="true" class="form-row"></div>
