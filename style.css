@@ -4,7 +4,7 @@ font-family: Lexend, arial;
 box-sizing: border-box;
 }
 body {
-   background-color: #ffffff /* #d1d1e8*/
+   background-color: #ffffff /* #d1d1e8  #ffefe5*/
 
 ;
 }
@@ -576,6 +576,9 @@ article b {
 .rodo-consent {
   cursor: pointer;
 }
+
+.contact-form {
+    background: #ffefe5;}
 /* pomniejszenie znaczkow na media spolecznosciowe*/
 
 @media (max-width: 764px) {
@@ -587,10 +590,13 @@ padding: 5px;
 
 /* zmniejszenie formualrza kontaktowego*/
 
+
+
 @media (max-width: 764px) {
 .contact-form {
 max-width: 400px;
 width: 100%;
+    background: #ffefe5;
 }
 }
 
