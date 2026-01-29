@@ -546,31 +546,11 @@ article b {
 
 /*//////////////
 
-/* Default layout (desktop) */
-.checkbox-container {
-  display: flex;
-  align-items: flex-start;
-}
-/* Checkbox styling */
-.checkbox-container input[type="checkbox"] {
-  max-width: 16px;
-  margin-right: 4px;
-}
-/* Responsive fix for mobile screens */
-@media (max-width: 600px) {
-  .checkbox-container {
-    flex-direction: column;
-    align-items: flex-start;
-  }
-  .checkbox-container label {
-    margin-top: 4px;
-  }
-}
 
 
 
 
-//////*/
+
 
 /* pomniejszenie znaczkow na media spolecznosciowe*/
 
