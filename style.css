@@ -574,7 +574,11 @@ article b {
 
 
 
-
+@media (max-width: 480px) {
+  .rodo-checkbox span {
+    margin-right: 12px;
+  }
+}
 
 /* pomniejszenie znaczkow na media spolecznosciowe*/
 
