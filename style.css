@@ -34,14 +34,16 @@ nav a {
 }
 /*po najechaniu myszka*/
 nav a:hover {
-    background-color:#4747a3;
+    background-color:#ffbe98;
+    
+/*    #4747a3*/
     cursor:pointer;
 }
 
 
 
 .active {
-    background-color:#ffbe98; 
+    background-color:#ffc4a2; 
 /*    #4747a3*/
 }
 
@@ -67,7 +69,7 @@ article h1{
     text-align: center;
     margin: 0 10% 30px 10%;
     padding-bottom: 15px;
-    border-bottom: 5px solid #4747a3;
+    border-bottom: 5px solid #ffbe98;
    
 }
 
@@ -90,7 +92,7 @@ img.projekt1 {
     
     margin: 10px 50px 5px 10px;
     width: 30%;
-    border: 4px solid #4747a3;
+    border: 4px solid #ffbe98;
 }
     img.projekt {
     
