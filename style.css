@@ -562,10 +562,12 @@ article b {
 .rodo-checkbox {
   display: flex;
   align-items: center;
-  margin-left: 8px;
+ 
   cursor: pointer;
 }
-
+.rodo-checkbox span {
+  margin-right: 8px;
+}
 .rodo-checkbox input {
   transform: scale(1.2);
 }
