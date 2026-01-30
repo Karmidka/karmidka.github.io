@@ -436,7 +436,12 @@ oferta a:hover {
     
 }
 
-
+formatoferta {
+  margin-top: 100px;
+  margin-bottom: 100px;
+  margin-right: 150px;
+  margin-left: 80px;
+}
 
 /* selected link */
 oferta a:active {
