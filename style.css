@@ -31,8 +31,8 @@ nav a {
     text-align:center;
     font-size: 22px;
     white-space: nowrap; 
-    background-color:  #ffdecc
-/*        #7575ba*/
+    background-color:  #f3eee7
+/*        #7575ba #ffdecc*/
 }
 /*po najechaniu myszka*/
 nav a:hover {
