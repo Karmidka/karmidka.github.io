@@ -438,11 +438,11 @@ oferta a:link {
 }
 
 /* visited link */
-oferta a:visited {
+/*oferta a:visited {
   color: blueviolet;
     text-decoration:none;
     font-weight: bold;
-}
+}*/
 
 /* mouse over link */
 oferta a:hover {
