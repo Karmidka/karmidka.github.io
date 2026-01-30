@@ -99,9 +99,7 @@ article h1{
 img.index {
         float: left;
     }
-    p {
-        overflow: hidden;
-    }
+ 
 
 img.left {
     float:left;
