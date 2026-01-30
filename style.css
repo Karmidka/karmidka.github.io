@@ -13,7 +13,9 @@ body {
     margin: 0 auto;
 /*    background-color: white;*/
 }
-
+a:visited {
+  color: black !important;
+}
 
 header img {width: 100%; display:block;}
 h3 {
