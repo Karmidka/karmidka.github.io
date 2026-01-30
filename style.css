@@ -36,16 +36,16 @@ nav a {
 }
 /*po najechaniu myszka*/
 nav a:hover {
-    background-color:#ffd2b7;
+    background-color:#e6ded4;
     
-/*    #ffbe98*/
+/*    #ffbe98 #ffd2b7*/
     cursor:pointer;
 }
 
 
 
 .active {
-    background-color:#ffbe98; 
+    background-color:#e6ded4; 
 /*    #ffbe98*/
 }
 
@@ -123,7 +123,7 @@ footer{
     margin-top:120px;
     width:100%;
     height: 180px;
-    background-color: #ffbe98;
+    background-color: #cfc4B8;
     
     color: white;
   font-size: 15px;
@@ -140,7 +140,7 @@ footer p{
 img.FR {
   max-width: 10%;
   height: auto;
-    background-color: #ffbe98;
+    background-color: #cfc4B8;
      margin: 0;
 }
 
