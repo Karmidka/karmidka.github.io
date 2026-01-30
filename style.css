@@ -96,6 +96,12 @@ article h1{
     padding-bottom: 15px;
 }
 
+img.index {
+        float: left;
+    }
+    p {
+        overflow: hidden;
+    }
 
 img.left {
     float:left;
