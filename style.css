@@ -34,7 +34,7 @@ nav a {
     font-size: 22px;
     white-space: nowrap; 
     background-color:  #f3eee7;
-    border-bottom: 1px solid #E6DED4;
+/*    border-bottom: 1px solid #E6DED4;*/
     box-shadow: 0 1px 4px rgba(0, 0, 0, 0.04);
 /*        #7575ba #ffdecc*/
 }
