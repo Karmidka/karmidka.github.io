@@ -163,7 +163,7 @@ section22 a:link {
 
 /* visited link */
 section22 a:visited {
-  color: blueviolet;
+  color: black;
     text-decoration:none;
     font-weight: bold;
 }
@@ -176,7 +176,7 @@ section22 a:hover {
 
 /* selected link */
 section22 a:active {
-  color: blueviolet;
+  color: black;
     text-decoration:none;
     font-weight: bold;
 }
@@ -412,7 +412,7 @@ bibliography a:link {
 
 /* visited link */
 bibliography a:visited {
-  color: blueviolet;
+  color: black;
     text-decoration:none;
     font-weight: bold;
 }
@@ -425,7 +425,7 @@ bibliography a:hover {
 
 /* selected link */
 bibliography a:active {
-  color: blueviolet;
+  color: black;
     text-decoration:none;
     font-weight: bold;
 }
@@ -439,7 +439,7 @@ oferta a:link {
 
 /* visited link */
 /*oferta a:visited {
-  color: blueviolet;
+  color: black;
     text-decoration:none;
     font-weight: bold;
 }*/
@@ -455,7 +455,7 @@ oferta a:hover {
 /* selected link */
 /*
 oferta a:active {
-  color: blueviolet;
+  color: black;
     text-decoration:none;
     font-weight: bold;
 }
