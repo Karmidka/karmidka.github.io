@@ -44,6 +44,21 @@ nav a:hover {
 
 
 
+
+
+.nav {
+  box-shadow: 0 1px 4px rgba(0, 0, 0, 0.04);
+}
+
+.nav {
+  border-bottom: 1px solid #E6DED4;
+}
+
+
+
+
+
+
 .active {
     background-color:#e6ded4; 
 /*    #ffbe98*/
