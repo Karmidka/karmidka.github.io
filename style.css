@@ -611,7 +611,7 @@ article b {
 }
 
 .contact-form {
-    background: #f3eee7;}
+    background: #e6ded4;}
 /* pomniejszenie znaczkow na media spolecznosciowe*/
 
 @media (max-width: 764px) {
@@ -629,7 +629,7 @@ padding: 5px;
 .contact-form {
 max-width: 400px;
 width: 100%;
-    background: #cfc4B8;
+    background: #e6ded4;
 }
 }
 
