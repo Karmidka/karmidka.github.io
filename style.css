@@ -453,11 +453,13 @@ oferta a:hover {
 
 
 /* selected link */
+/*
 oferta a:active {
   color: blueviolet;
     text-decoration:none;
     font-weight: bold;
 }
+*/
 
 
 film iframe{
