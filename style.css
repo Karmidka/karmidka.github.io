@@ -253,7 +253,8 @@ img.left {
 }
  
     article p {
-    text-align: left;
+    text-align: justify;
+        hyphens: auto;
     line-height: 15px;
     font-size: 14px;
     padding: 5px 0;
