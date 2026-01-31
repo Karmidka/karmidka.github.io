@@ -199,7 +199,11 @@ section22 a:active {
     font-weight: bold;
 }
 
-
+.rodo-text {
+    font-size: 0.8em;
+    line-height: 1.4;
+    color: #333;
+}
 /*@media only screen and (max-width: 600px) {*/
     
     
