@@ -18,11 +18,7 @@ article a:visited {
 }
 
 
-@media only screen and (max-width: 600px) {
-  article p {
-    text-align: left;
-  }
-}
+
 
 header img {width: 100%; display:block;}
 h3 {
@@ -215,7 +211,8 @@ section22 a:active {
 
   article p {
     font-size: 14px;
-    line-height: 1.4;     /* better readability on mobile */
+    line-height: 1.4;  
+      text-align: left;/* better readability on mobile */
   }
 /*
 }
