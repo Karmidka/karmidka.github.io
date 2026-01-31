@@ -211,8 +211,7 @@ section22 a:active {
 
   article p {
     font-size: 14px;
-    line-height: 1.4;  
-      text-align: left;/* better readability on mobile */
+    line-height: 1.4;     /* better readability on mobile */
   }
 /*
 }
@@ -254,7 +253,7 @@ img.left {
 }
  
     article p {
-    text-align: justify;
+    text-align: left;
     line-height: 15px;
     font-size: 14px;
     padding: 5px 0;
