@@ -13,7 +13,7 @@ body {
     margin: 0 auto;
 /*    background-color: white;*/
 }
-a:visited {
+article a:visited {
   color: black !important;
 }
 
