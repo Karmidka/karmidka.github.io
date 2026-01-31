@@ -17,6 +17,13 @@ article a:visited {
   color: black !important;
 }
 
+
+@media only screen and (max-width: 600px) {
+  article p {
+    text-align: left;
+  }
+}
+
 header img {width: 100%; display:block;}
 h3 {
     text-align:center;
